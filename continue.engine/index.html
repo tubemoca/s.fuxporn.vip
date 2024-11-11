@@ -163,7 +163,7 @@ l.parentNode.insertBefore(s, l);
             return urlParams.get(name);
         }
 
-        const redirectUrl = decodeURIComponent(getQueryParameter('wait')) || '#';
+        const redirectUrl = decodeURIComponent(getQueryParameter('u')) || '#';
 
         const countdownInterval = setInterval(() => {
             timeLeft -= 1;
